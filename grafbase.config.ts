@@ -15,7 +15,7 @@ const User = g.model("User", {
 });
 
 // @ts-ignore
-const Project = Graph.model("Project", {
+const Project = g.model("Project", {
 	title: g.string().length({ min: 3 }),
 	description: g.string(),
 	image: g.url(),
